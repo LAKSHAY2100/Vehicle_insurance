@@ -3,7 +3,7 @@ from datetime import date
 
 DATABASE_NAME = "Project1"
 COLLECTION_NAME = "Project1-Data"
-MONGODB_URL_KEY = "mongodb+srv://lakshaybajaj210_db_user:yFNBjZZzsNxbDJWI@cluster0.boj8n1j.mongodb.net/?appName=Cluster0"
+MONGODB_URL_KEY = "MONGODB_URL"
 
 PIPELINE_NAME : str=""
 ARTIFACT_DIR: str = "artifact"
@@ -59,7 +59,7 @@ MODEL_TRAINER_N_ESTIMATORS=200
 MODEL_TRAINER_MIN_SAMPLES_SPLIT: int = 7
 MODEL_TRAINER_MIN_SAMPLES_LEAF: int = 6
 MIN_SAMPLES_SPLIT_MAX_DEPTH: int = 10
-MIN_SAMPLES_SPLIT_CRITERION: str = 'entropy'
+MIN_SAMPLES_SPLIT_CRITERION: str = 'entrgit add .opy'
 MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 
 """
