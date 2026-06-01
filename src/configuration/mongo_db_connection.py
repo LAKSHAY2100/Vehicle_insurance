@@ -2,6 +2,7 @@ import os
 import sys
 import pymongo
 import certifi
+from urllib.parse import quote_plus
 
 from src.exception import MyException
 from src.logger import logging
